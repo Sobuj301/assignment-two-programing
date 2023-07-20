@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+nav img {
+    width: 40px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.onetime {
+    margin-left: 1000px;
+}
+
+
+
+section {
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right:200px;
+    align-items: center;
+
+}
+.banner-img{
+         height: 400px;
+}
+.main-container{
+    display: flex;
+    background: rgba(255, 66, 165, 0.03);
+    padding:50px 220px 50px 200px;
+    align-items: center;
+    
+    
+}
+.main-contain{
+    width: 200px;
+}
+.card-container{
+    display: flex;
+    gap: 25px;
+    padding-left: 200px;
+    padding-right:200px;
+
+}
+.card-img{
+    width: 250px;
+    height:300px;
+}
+.card-information{
+    margin-bottom: 50px;
+    text-align: center;
+}
