@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+/*   first  */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+nav img {
+    width: 40px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+  /* 2nd style */
+section {
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right:200px;
+    align-items: center;
+
+}
+.banner-img{
+         height: 400px;
+}
+.main-container{
+    display: flex;
+    background: rgba(255, 66, 165, 0.03);
+    padding:50px 220px 50px 200px;
+    align-items: center;
+    
+    
+}
+.main-contain{
+    width: 200px;
+}
+.card-container{
+    display: flex;
+    gap: 25px;
+    padding-left: 200px;
+    padding-right:200px;
+    margin-bottom: 50px;
+
+}
+.card-img{
+    width: 250px;
+    height:300px;
+}
+.card-information{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.download-container{
+      display: flex;
+      gap: 100px;
+      margin-right: 150px;
+      margin-left: 200px;
+      align-items: center;
+      
+      
+}
+.picture{
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+}
+.download-contain{
+        /* text-align: center; */
+        padding: 180px;
+        padding-top: 50px;
+}
+.pic-2{
+    margin-top:0px;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 100px;
+}
+.download-picture{
+    width: 300px;
+    height:350px;
+
+}
+.download-picture-2{
+    margin-top:0px;
+    width: 100px;
+    height: 150px;
+    position: relative;
+   
+
+}
+.Careers-container{
+    background-color: #FF42A5;
+}
+.game-container{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 150px;
+    gap: 30px;
+    text-align: center;
+}
+.game-container-2{
+    display: flex;
+    margin-top:0px;
+    margin-left: 200px;
+    padding: 50px;
+
+}
+footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #0B0223;
+}
+.footer-1{
+    color:brown
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer-3{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 50px 250px 50px 250px;
+   
+   
+}
+.footer-2{
+    color:#FFF;
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    margin: 50px 200px 50px 200px;
+    
+}
+.logo{
+    width: 20px;
+    height:20px;
+}
+.footer-4{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.alhamdulilah{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width:576px) {
+    nav,nav ul,section,.main-container,.card-container,.download-container,.game-container-2,.footer{
+        flex-direction: column;
+        padding: 0px;
+       
+    }
+    .footer-2,.footer-3,.game-container{
+        grid-template-columns:1fr;
+        padding: 0px; 
+    }
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav,.main-container{
+            flex-direction:column;
+            
+           
+        }
+            
+        }
+            
